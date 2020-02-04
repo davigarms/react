@@ -8,8 +8,6 @@ const App = React.createClass({
     return (
       <div className='container'>
         <Title name='Davi' />
-        <label htmlFor='input' data-label='label'>Input</label>
-        <input type='text' id='input' aria-hidden={true} />
       </div>
     )
   }
